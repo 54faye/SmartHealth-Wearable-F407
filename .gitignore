@@ -43,6 +43,7 @@ Desktop.ini
 # Documentation and analysis files (keep local only)
 .understand-anything/
 *.md
+!README.md
 *.xlsx
 
 # Build output directories (keep structure, exclude contents)
