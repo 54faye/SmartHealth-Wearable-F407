@@ -44,6 +44,9 @@ Desktop.ini
 .understand-anything/
 *.md
 !README.md
+!技能架构文档.md
+!客户需求文档.md
+!具体技术实现说明文档.md
 *.xlsx
 
 # Build output directories (keep structure, exclude contents)
