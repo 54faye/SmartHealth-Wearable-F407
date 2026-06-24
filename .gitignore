@@ -1,0 +1,47 @@
+# Keil MDK build outputs
+*.o
+*.d
+*.crf
+*.lnp
+*.axf
+*.hex
+*.bin
+*.elf
+*.htm
+*.dep
+*.iex
+*.lst
+*.map
+*.build_log.htm
+*.tra
+*.sct
+*.scr
+JLinkLog.txt
+JLink*
+
+# Keil project backups
+*.uvguix.*
+*.uvoptx
+*.bak
+*.Backup
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Claude local settings
+.claude/settings.local.json
+
+# Build output directories (keep structure, exclude contents)
+Listings/*
+Objects/*
+!Listings/.gitkeep
+!Objects/.gitkeep
